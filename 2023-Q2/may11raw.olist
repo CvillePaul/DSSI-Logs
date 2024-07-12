@@ -1,0 +1,44 @@
+DSSI OBSERVING at the the ARC Telescope, 11 MAY 2023 UT
+On-Site Observers: Jimmy Davidson, Steve Majewski
+Remote Observers:
+OTs: Candace Gray
+
+
+Same set-up as last run:
+The 60-mm focal length, 25-mm diameter, lens is now the collimator in DSSI.
+DSSI control computer mounted to underside of instrumnet has new IP: 10.75.0.93
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone)
+
+Camera A = X-13111 (692 nm)
+Camera B = X-13243 (880 nm)
+Camera set-up (on both):
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+TUI Program UV02, password fiddleDeDee
+
+UT = 11 May 2023
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image 230
+---------------------------------------------------------------------------------------------
+NAME    IMG   UT    GAINS      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+---------------------------------------------------------------------------------------------
+During the day the mounting adapter and plate were removed to test a fiber light source
+for performing calibrations off the telescope.
+Particle count has been high all night, along with high winds. Telescope has remained closed
+through A-half. The wind has improved, but particle count is still high. Hopefully that drops
+soon and we are able to get on sky.
+---------------------------------------------------------------------------------------------
+Unfortunately the particle count didn't drop below the threshold to open. :(
+End of the night
+---------------------------------------------------------------------------------------------

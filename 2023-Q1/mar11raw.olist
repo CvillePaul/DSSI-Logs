@@ -1,0 +1,121 @@
+DSSI OBSERVING at the the ARC Telescope, 11 MAR 2023 UT
+On-Site Observers: Jimmy Davidson, Elliott Horch
+Remote Observers: Steve Majewski, Evan Fagan
+OTs: David DeColibus
+
+IR channel comissioning
+
+New set-up:
+Collimating lens is 60-mm focal length NIR-II coated (45-804 from Edmund Optics)
+Reimaging lens for the optical arm (using the EMCCD) is a 200-mm focal length VIS-NIR coated (49-392 from Edmund Optics)
+Reimaging lens for the infrared arm (using the NIRvana-LN) is a 200-mm focal length NIR-II coated (47-319 from Edmund Optics)
+New dichroic assembly has been installed.
+Dichroic is model DMSP1000R from Thorlabs
+Optical arm has two filters mounted on a linear stage: 692nm x 40nm (67-038), and 880nm x 40nm (65-748), both from Edmund Optics
+Infrared arm has a longpass filter with a cut-on wavelength of 1450nm (FELH1450) from Thorlabs
+
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone)
+
+Camera A (EMCCD) = X-13111 (692nm & 880nm)
+Camera set-up:
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+Camera B (InGaAs) = NIRvana-LN (~1.5um)
+Camera set-up (Lightfield):
+Exposure Time = 40ms
+Time Stamping = Exposure Started
+Frame Tracking: on
+Using a Background Reference File
+Export Acquired Data: on
+File Type = FITS
+Export As = One File per ROI
+Save Exported Files Only: on
+Analog to Digital Conversion: Speed = 250kHz
+
+
+TUI Program UV01, password fiddleDeDee
+
+UT = 11 Mar 2023
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image number 1
+Optical has a range of 4 images (692nm, 880nm, 880nm, 692nm)
+Infrared has a single image
+-------------------------------------------------------------------------------------------------------
+NAME    O-IMGS  IMG  UT   GAIN      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+-------------------------------------------------------------------------------------------------------
+Focus 872um, seeing ~1.5" at 692 nm
+Took a background reference frame for the IR camera
+HR 2334 001-004 001 01:51  20  06:27:13.8 +00:17:57.0      0.000     0.000  5.20
+Oops, apparently we read out the whole frame, not just the region of interest...
+Negative image where previous target was located. Take a new background reference frame
+Clouds are rolling in
+H029611 005-008 002 02:18 300  06:14:24.4 +05:10:08.0     56.997  -283.501  8.39  RKS0614+0510A KKIDSB   
+-------------------------------------------------------------------------------------------------------
+Refocus to 797um
+Observing through clouds
+HR 2466 009-012 003 02:31  20  06:42:24.3 +17:38:43.0      0.000     0.000  5.21
+H030220 013-016 004 02:39 300  06:21:27.7 +17:17:42.0      8.636  -189.985  9.09  RKS0621+1717A KKIDSB/S        
+-------------------------------------------------------------------------------------------------------
+Refocus to 722um
+HR 3086 017-020 005 02:53 300  07:55:39.9 +19:53:02.0      0.000     0.000  5.35
+Too cloudy for this target!!
+H037246                        07:38:59.1 +19:13:04.0     67.164  -179.667 10.84  RKS0738+1913A KKIDSB          
+-------------------------------------------------------------------------------------------------------
+Refocus to 672um
+H040167 021-024 006 03:09  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=0    
+H040167 025-028 007 03:19  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=-10
+H040167 029-032 008 03:28  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=-40
+H040167 033-036 009 03:37  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=-80
+Waiting on clouds
+H040167 037-040 010 03:48  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=-120
+H040167 041-044 011 03:57  50  08:12:12.7 +17:38:52.0     27.610  -151.730  4.78  SCALE,rho=1.119,rot=-150
+Need to close due to radar
+HR 3366                        08:32:42.5 +20:26:28.0      0.000     0.000  5.33
+-------------------------------------------------------------------------------------------------------
+Reopening, but there is still heavy cloud cover...
+....
+....
+Clouds are finally moving out!!
+H066640 045-048 012 09:53 300  13:39:34.6 +10:44:46.6   -114.960   -11.740  5.58  SCALE,rho=0.16",rot=0
+HR 5011 049-052 013 10:02 100  13:16:46.5 +09:25:27.0      0.000     0.000  5.22
+
+Slit mask is roughly oriented with the slits 45 degrees counterclockwise from vertical when viewed from the cameras
+Rotate instrument to upright position (rot=mount), move mask in, rotate instrument back to object (rot=object)
+HR 3366 053-056 014            08:32:42.5 +20:26:28.0      0.000     0.000  5.33  Slit mask
+Clouds were too thick. Need to try a brighter target
+-------------------------------------------------------------------------------------------------------
+HR  424 053-056 014 10:22 200  02:31:49.1 +89:15:50.8      4.448    -1.185  2.02  Slit mask
+-------------------------------------------------------------------------------------------------------
+H063942 057-060 015 10:34 300  13:06:15.4 +20:43:44.0    -49.170   101.140  9.54  RKS1306+2043A KKIDSB/A        
+HR 4851 061-064 016 10:42  10  12:46:38.7 +16:34:39.0      0.000     0.000  5.12
+-------------------------------------------------------------------------------------------------------
+
+H900001 065-068 017 10:54 300  14:19:29.6 +02:54:36.5   -195.373  -149.846 13.23  Robo-AO target
+
+HR 5232 069-072 018 11:02  10  13:54:42.1 -01:30:11.0      0.000     0.000  5.15
+NIRvana camera temperature became unlocked during the end of HR 5232 observation
+NIRvana at -189 C at start of observation
+H068889 073-076 019 11:12 300  14:06:17.9 +03:14:09.0   -329.170    -3.760 10.40  RKS1406+0314A KKIDSB/A
+NIRvana at -187 C at end of observation
+-------------------------------------------------------------------------------------------------------
+Refocus to 572um
+HR 8003 077-080 020 11:26  20  20:53:18.6 +45:10:55.0      9.360    -4.210  5.46
+Too faint to see given sky conditions
+H300086                        20:34:06.0 +41:08:09.0     -1.850    -4.470 12.19  TIC63459761
+-------------------------------------------------------------------------------------------------------
+NIRvana at -178 C at start of exposure
+H075312 081-084 021 11:46  20  15:23:12.3 +30:17:16.2    116.830  -171.370  4.98  SCALE,rho=0.53"
+NIRvana at -174 C at end of exposure
+Not enough time left to take another observation
+-------------------------------------------------------------------------------------------------------

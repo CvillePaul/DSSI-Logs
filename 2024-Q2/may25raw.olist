@@ -1,0 +1,55 @@
+DSSI OBSERVING at the the ARC Telescope, 25 MAY 2024 UT
+On-Site Observers: Jimmy Davidson, Steve Majewski, Gabe Hartwell
+Remote Observers: 
+OTs: Candace Gray
+
+IR mode configuration:
+Collimating lens is 60-mm focal length NIR-II coated (45-804 from Edmund Optics)
+Reimaging lens for the optical arm (using the EMCCD) is a 200-mm focal length VIS-NIR coated (49-392 from Edmund Optics)
+Reimaging lens for the infrared arm (using the NIRvana-LN) is a 200-mm focal length NIR-II coated (47-319 from Edmund Optics)
+New dichroic assembly has been installed.
+Dichroic is model DMSP1000R from Thorlabs
+Optical arm has two filters mounted on a linear stage: 692nm x 40nm (67-038), and 880nm x 40nm (65-748), both from Edmund Optics
+Infrared arm has a longpass filter with a cut-on wavelength of 1450nm (FELH1450) from Thorlabs
+
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone)
+
+Camera A (EMCCD) = X-13111 (692nm & 880nm)
+Camera set-up:
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+Camera B (InGaAs) = NIRvana-LN (~1.5um)
+Camera set-up (Lightfield):
+Exposure Time = 40ms
+Time Stamping = Exposure Started
+Frame Tracking: on
+Using a Background Reference File
+Export Acquired Data: on
+File Type = FITS
+Export As = One File per ROI
+Save Exported Files Only: on
+Analog to Digital Conversion: Speed = 250kHz
+
+TUI Program UV03, password fiddleDeDee
+
+UT = 25 MAY 2024
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image number 1
+Optical has a range of 4 images (692nm, 880nm, 880nm, 692nm)
+Infrared has a single image
+-------------------------------------------------------------------------------------------------------
+NAME    O-IMGS  IMG  UT   GAIN      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+-------------------------------------------------------------------------------------------------------
+Particle count too high all night. Could not open dome.
+-------------------------------------------------------------------------------------------------------

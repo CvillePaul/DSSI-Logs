@@ -1,0 +1,36 @@
+DSSI OBSERVING at the the ARC Telescope, 14 NOV 2022 UT
+On-Site Observers: Jimmy Davidson, Steve Majewski, Evan Fagan
+Remote Observers: 
+OTs: Amanda Townsend
+
+
+Same set-up as last night:
+The 60-mm focal length, 25-mm diameter, lens is now the collimator in DSSI.
+New DSSI control computer mounted to underside of instrumnet. IP is 10.75.0.90
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+
+Camera A = X-13111 (692 nm)
+Camera B = X-13243 (880 nm)
+Camera set-up (on both):
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+TUI Program UV01, password fiddleDeDee
+
+UT = 14 Nov 2022
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image 264
+---------------------------------------------------------------------------------------------
+NAME    IMG   UT    GAINS      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+---------------------------------------------------------------------------------------------
+High wind gusts at handover from A-half to B-half. Clouds have also rolled in. Dome is closed.
+Weather never improved. We were closed all B-half. No observations. :(
+---------------------------------------------------------------------------------------------

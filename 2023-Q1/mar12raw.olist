@@ -1,0 +1,74 @@
+DSSI OBSERVING at the the ARC Telescope, 12 MAR 2023 UT
+On-Site Observers: Jimmy Davidson, Elliott Horch
+Remote Observers: Steve Majewski
+OTs: David DeColibus
+
+IR channel comissioning
+
+New set-up:
+Collimating lens is 60-mm focal length NIR-II coated (45-804 from Edmund Optics)
+Reimaging lens for the optical arm (using the EMCCD) is a 200-mm focal length VIS-NIR coated (49-392 from Edmund Optics)
+Reimaging lens for the infrared arm (using the NIRvana-LN) is a 200-mm focal length NIR-II coated (47-319 from Edmund Optics)
+New dichroic assembly has been installed.
+Dichroic is model DMSP1000R from Thorlabs
+Optical arm has two filters mounted on a linear stage: 692nm x 40nm (67-038), and 880nm x 40nm (65-748), both from Edmund Optics
+Infrared arm has a longpass filter with a cut-on wavelength of 1450nm (FELH1450) from Thorlabs
+
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone)
+
+Camera A (EMCCD) = X-13111 (692nm & 880nm)
+Camera set-up:
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+Camera B (InGaAs) = NIRvana-LN (~1.5um)
+Camera set-up (Lightfield):
+Exposure Time = 40ms
+Time Stamping = Exposure Started
+Frame Tracking: on
+Using a Background Reference File
+Export Acquired Data: on
+File Type = FITS
+Export As = One File per ROI
+Save Exported Files Only: on
+Analog to Digital Conversion: Speed = 250kHz
+
+
+TUI Program UV01, password fiddleDeDee
+
+UT = 12 Mar 2023
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image number 1
+Optical has a range of 4 images (692nm, 880nm, 880nm, 692nm)
+Infrared has a single image
+-------------------------------------------------------------------------------------------------------
+NAME    O-IMGS  IMG  UT   GAIN      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+-------------------------------------------------------------------------------------------------------
+We are opened at the start of B-half, but the clouds are too thick... :(
+-------------------------------------------------------------------------------------------------------
+Finally able to see some stars...
+Focus 668um, seeing ~???" at 692 nm
+Vega    085-088 022 11:45  10  18:36:56.9 +38:47:04.3    200.94    286.23   0.03
+-------------------------------------------------------------------------------------------------------
+H075312 089-092 023 11:56 100  15:23:12.3 +30:17:16.2    116.830  -171.370  4.98  SCALE,rho=0.53"               
+HR 5676 093-096 024 12:04 200  15:14:29.2 +29:09:51.0      0.000     0.000  5.26
+H900003 097-100 025 12:14 300  14:50:15.8 +23:54:42.6    144.396    31.661  5.87  HD 130948BC
+H900003 101-104 026 12:26 300  14:50:15.8 +23:54:42.6    144.396    31.661  5.87  HD 130948BC
+Only taking IR frames here as it is not visible in the optical
+H900004 XXX-XXX 027 12:36 XXX  15:43:48.5 +25:52:38.3   -171.0     317.0   14.33  2MASS J15434848+2552376  -  Pokemon
+H900004 XXX-XXX 028 12:43 XXX  15:43:48.5 +25:52:38.3   -171.0     317.0   14.33  2MASS J15434848+2552376  -  Pokemon
+-------------------------------------------------------------------------------------------------------
+H067808 105-108 029 12:51 300  13:53:27.7 +12:56:39.0   -171.758  -604.269  9.78  RKS1353+1256A KKIDSB/G        
+HR 5323 109-112 030 12:59 300  14:14:05.2 +12:57:34.0      0.000     0.000  5.54
+End of the night
+-------------------------------------------------------------------------------------------------------

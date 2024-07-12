@@ -1,0 +1,97 @@
+DSSI OBSERVING at the the ARC Telescope, 12 MAY 2023 UT
+On-Site Observers: Jimmy Davidson, Steve Majewski
+Remote Observers:
+OTs: Candace Gray
+
+IR mode configuration:
+Collimating lens is 60-mm focal length NIR-II coated (45-804 from Edmund Optics)
+Reimaging lens for the optical arm (using the EMCCD) is a 200-mm focal length VIS-NIR coated (49-392 from Edmund Optics)
+Reimaging lens for the infrared arm (using the NIRvana-LN) is a 200-mm focal length NIR-II coated (47-319 from Edmund Optics)
+New dichroic assembly has been installed.
+Dichroic is model DMSP1000R from Thorlabs
+Optical arm has two filters mounted on a linear stage: 692nm x 40nm (67-038), and 880nm x 40nm (65-748), both from Edmund Optics
+Infrared arm has a longpass filter with a cut-on wavelength of 1450nm (FELH1450) from Thorlabs
+
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone)
+
+Camera A (EMCCD) = X-13111 (692nm & 880nm)
+Camera set-up:
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+Camera B (InGaAs) = NIRvana-LN (~1.5um)
+Camera set-up (Lightfield):
+Exposure Time = 40ms
+Time Stamping = Exposure Started
+Frame Tracking: on
+Using a Background Reference File
+Export Acquired Data: on
+File Type = FITS
+Export As = One File per ROI
+Save Exported Files Only: on
+Analog to Digital Conversion: Speed = 250kHz
+
+TUI Program UV02, password fiddleDeDee
+
+UT = 12 May 2023
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image number 1
+Optical has a range of 4 images (692nm, 880nm, 880nm, 692nm)
+Infrared has a single image
+-------------------------------------------------------------------------------------------------------
+NAME    O-IMGS  IMG  UT   GAIN      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+-------------------------------------------------------------------------------------------------------
+
+Took a background reference frame for the IR camera: BackgroundReference_may2023_001
+Camera connection issues at start of night.
+-------------------------------------------------------------------------------------------------------
+Focus 701um, seeing ~0.6" at 692 nm
+#pri3,RKS1106+1415 - large separation and large magnitude difference seen the other night
+HR 4365 001-004 001 02:57   5  11:15:51.9 +13:18:27.0      0.000     0.000  5.32
+H202340 005-008 002 03:06 300  11:06:31.6 +14:15:44.0    202.250  -307.870  8.97  pri3,RKS1106+1415
+-------------------------------------------------------------------------------------------------------
+HR 4663 009-012 003 03:16  10  12:16:00.2 +14:53:56.6    -80.593   -31.005  5.09
+H900002 013-016 004 03:25 300  12:08:28.9 +13:27:09.9      0.000     0.000 15.30  2MASS J12082885+1327090  -  Robo-AO
+-------------------------------------------------------------------------------------------------------
+Refocus to 676um
+HR 5405 017-020 005 03:43  75  14:26:27.4 +19:13:37.0      0.000     0.000  5.39
+H900003 021-024 006 03:54  75  14:50:15.8 +23:54:42.6    144.396    31.661  5.87  HD 130948BC
+-------------------------------------------------------------------------------------------------------
+H075312 025-028 007 04:02  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=0
+H075312 029-032 008 04:14  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=-40
+H075312 033-036 009 04:21  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=-80
+H075312 037-040 010 04:28  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=-120
+H075312 041-044 011 04:36  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=-150
+H075312 045-048 012 04:45  40  15:23:12.3 +30:17:16.2    116.83   -171.37   4.98  SCALE,rho=0.55",rot=0
+HR 5676 049-052 013 04:56  40  15:14:29.2 +29:09:51.0      0.000     0.000  5.26
+Refocus to 576um
+Slit mask is roughly oriented with the slits roughly horizontal from the cameras
+Rotate instrument to upright position (rot=mount), move mask in, rotate instrument back to object (rot=object)
+HR 5676 053-056 014 05:09 300  15:14:29.2 +29:09:51.0      0.000     0.000  5.26 Slit mask
+HR 5676 057-060 015 05:16 300  15:14:29.2 +29:09:51.0      0.000     0.000  5.26 Slit mask
+Slit mask move out:
+Rotate instrument to upright position (rot=mount), move mask out, slew to next target with rot=object
+-------------------------------------------------------------------------------------------------------
+HR 5001 061-064 016 05:31  30  13:15:58.8 -19:56:35.0      0.000     0.000  5.22
+H202852 065-068 017 05:39 300  13:27:02.9 -24:17:25.5   -339.028   -66.944  8.45  APO_RKS_discv                 
+-------------------------------------------------------------------------------------------------------
+Refocus to 596um
+HR 5313 069-072 018 05:49  10  14:12:15.8 +02:24:34.0      0.000     0.000  5.01
+H203008 073-076 019 05:58 300  14:05:55.9 +06:22:35.1     28.995    -2.481 10.11  APO_RKS_discv                 
+-------------------------------------------------------------------------------------------------------
+HR 5676 077-080 020 06:08  15  15:14:29.2 +29:09:51.0      0.000     0.000  5.26
+H900004 081-084 021 06:16 300  15:43:48.5 +25:52:38.3   -171.0     317.0   14.33  #2MASS J15434848+2552376  -  Pokemon
+-------------------------------------------------------------------------------------------------------
+Stopping speckle observing ealry to do a test for the Quaoar occultation that is tomorrow night.
+The 692nm filter was removed in order to create a broadband response. The idea is to use the EMCCD to collect
+high frame rate data for the occultation. Telescope pointing seemed off and it took a while to aquire the target.
