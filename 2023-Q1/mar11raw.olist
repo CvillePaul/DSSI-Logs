@@ -92,7 +92,7 @@ HR 5011 049-052 013 10:02 100  13:16:46.5 +09:25:27.0      0.000     0.000  5.22
 
 Slit mask is roughly oriented with the slits 45 degrees counterclockwise from vertical when viewed from the cameras
 Rotate instrument to upright position (rot=mount), move mask in, rotate instrument back to object (rot=object)
-HR 3366 053-056 014            08:32:42.5 +20:26:28.0      0.000     0.000  5.33  Slit mask
+HR 3366 053-056 014    0      08:32:42.5 +20:26:28.0      0.000     0.000  5.33  Slit mask
 Clouds were too thick. Need to try a brighter target
 -------------------------------------------------------------------------------------------------------
 HR  424 053-056 014 10:22 200  02:31:49.1 +89:15:50.8      4.448    -1.185  2.02  Slit mask
