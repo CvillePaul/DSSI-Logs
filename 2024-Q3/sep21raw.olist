@@ -1,0 +1,76 @@
+DSSI OBSERVING at the the ARC Telescope, 21 SEP 2024 UT
+On-Site Observers: Jimmy Davidson, Steve Majewski
+Remote Observers:
+OTs: Mark Croom
+
+
+Same set-up as last run:
+The 60-mm focal length, 25-mm diameter, lens is now the collimator in DSSI.
+We have a new DSSI control computer that was used during previous nights with DIFFIT.
+DSSI control computer mounted to underside of instrumnet has IP: 10.75.0.93
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone-2, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone-2)
+
+
+
+Camera A = X-13111 (692 nm)
+Camera B = X-13243 (880 nm)
+Camera set-up (on both):
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+This DSSI observing run is on the heels of a DIFFIT run, where DSSI was used as the optics box.
+During the DIFFIT run, we used different lenses (same focal length, but different coatings).
+The reimaging lens of camera B was repositioned to acheive better focus.
+The collimating lens was originally changed to a 125mm focal length, but there was not enough travel
+in the mount, so we switched back to the 60mm focal length lens. Lens mount was positioned using
+gage blocks, so it should be back where it started.
+
+
+TUI Program UV01, password fiddleDeDee
+
+**NA2 rotator was zeroed before mounting DSSI last night, and we have not removed DSSI**
+
+UT = 21 SEP 2024
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image 001
+---------------------------------------------------------------------------------------------
+NAME    IMG   UT    GAINS      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+---------------------------------------------------------------------------------------------
+Focus 225um, seeing ~1.2" at 692nm
+H101948 001 05:58  50  50  20:39:33.0 +42:14:54.8    -62.74   -222.17   6.80   # Pri1 HJ_binaries,HD197037  
+HR 8085 002 06:05  10  10  21:06:54.6 +38:44:45.0      0.00      0.00   5.21
+H101756 003 06:09  50  50  20:37:23.6 +38:19:43.2     13.16    -43.61   6.21  # Pri2 accel_stars           
+---------------------------------------------------------------------------------------------
+Refocus to 170um
+HR 8008 004 06:13  10  10  20:54:33.6 +28:03:27.0      0.00      0.00   5.01
+H103079 005 06:16  30  30  20:53:07.4 +29:38:56.8     -5.29    -63.68   6.36  # Pri2 accel_stars           
+---------------------------------------------------------------------------------------------
+H106233 006 06:19 250 250  21:31:03.2 +30:08:02.9     27.44     18.20   8.16  # Pri2 accel_stars           
+HR 8343 007 06:22  50  50  21:49:50.7 +30:10:27.0      0.00      0.00   5.04
+---------------------------------------------------------------------------------------------
+H112535 008 06:26 300 300  22:47:36.7 +19:50:49.9    328.54     83.97  10.60  # Pri2 accel_stars           
+HR 8729 009 06:30  10  10  22:57:27.9 +20:46:08.0      0.00      0.00   5.49
+H113987 010 06:33  50  50  23:05:03.4 +24:31:18.6    -32.43      1.95   7.10   # Pri1 accel_stars           
+---------------------------------------------------------------------------------------------
+H111974 011 06:37  20  20  22:40:52.5 +14:32:56.0      0.00      0.00   6.14  SCALE, rho=0.213
+HR 8697 012 06:42  20  20  22:52:24.1 +09:50:08.0      0.00      0.00   5.00
+---------------------------------------------------------------------------------------------
+H520039 013 06:45 250 250  21:04:05.6 +03:58:47.7      0.000     0.000  8.4   WDS(DIFFIT) 21041+0359
+H520039 014 06:46 250 250  21:04:05.6 +03:58:47.7      0.000     0.000  8.4   WDS(DIFFIT) 21041+0359
+H520039 015 06:49 250 250  21:04:05.6 +03:58:47.7      0.000     0.000  8.4   WDS(DIFFIT) 21041+0359
+HR 8178 016 06:51  20  20  21:22:53.6 +06:48:40.0      0.000     0.000  5.16
+---------------------------------------------------------------------------------------------
+H510025 017 06:55 100 100  21:02:48.6 +45:50:55.9      0.000     0.000  7.1   WDS(DIFFIT) 21028+4551
+HR8228  018 06:57  10  10  21:29:27.0 +46:32:26.0      0.000     0.000  5.24
+---------------------------------------------------------------------------------------------
+End of night
