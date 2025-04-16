@@ -1,0 +1,95 @@
+DSSI OBSERVING at the ARC Telescope, 18 MAR 2025 UT
+On-Site Observers: Jimmy Davidson, Elliott Horch, and SCSU students Ana Baculima,
+                   Riley Barrett, Joshua Esposito, and Killian Levy
+Remote Observers:
+OTs: Jack Dembicky
+
+
+Same set-up as last run:
+The 60-mm focal length, 25-mm diameter, lens is now the collimator in DSSI.
+We have a new DSSI control computer that was used during previous nights with DIFFIT.
+DSSI control computer mounted to underside of instrumnet has IP: 10.75.0.93
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone-2, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone-2)
+
+
+
+Camera A = X-13111 (692 nm)
+Camera B = X-13243 (880 nm)
+Camera set-up (on both):
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+TUI Program UV01, password fiddleDeDee
+
+NA2 rotator was zeroed before mounting DSSI. Offset was -0.020 degrees.
+
+UT = 18 MAR 2025
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image 001
+---------------------------------------------------------------------------------------------
+NAME    IMG   UT    GAINS      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+---------------------------------------------------------------------------------------------
+We only have B-half tonight.
+Cloudy. High dust levels towards the end of A-half that caused dome to close.
+Waiting to see if clouds will move away and we can open.
+---------------------------------------------------------------------------------------------
+Clouds have finally moved out. We have mostly clear skies!
+Focus -37um, seeing ~1.2" at 692nm
+SIDE observation. Ba eclipse. Start 10:54:52 Mid:          End: 13:13:05 Observation 1 of 2
+HR 5800 001 11:25  50  50  15:35:15.0 +39:00:36.0      0.00      0.00   5.11
+H300118 002 11:30 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 003 11:31 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 004 11:33 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 005 11:34 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 006 11:36 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 007 11:37 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 008 11:39 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 009 11:40 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 010 11:42 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+HR 5800 011 11:44  50  50  15:35:15.0 +39:00:36.0      0.00      0.00   5.11
+Refocus to 125um
+---------------------------------------------------------------------------------------------
+HR 5676 012 11:53  50  50  15:14:29.2 +29:09:51.0                       5.26
+H203144 013 11:57 300 300  15:07:23.6 +24:56:07.9   -845.74    494.22  10.00  # pri2,RKSCHR,RKS1507+2456           
+H203204 014 12:00 300 300  15:21:09.3 +25:34:01.7    -93.70   -120.10   9.04  # pri1,RKSIPD,RKS1521+2534           
+HR 5676 015 12:03  50  50  15:14:29.2 +29:09:51.0                       5.26
+H075312 016 12:06  50  50  15:23:12.3 +30:17:16.2    116.830  -171.370  4.98  SCALE,rho=0.53" 
+HR 5676 017 12:10  50  50  15:14:29.2 +29:09:51.0                       5.26
+Refocus to 140um
+---------------------------------------------------------------------------------------------
+H620061 018 12:14 300 300  15:59:09.1 +32:23:45.5     42.28   -102.94   9.71  # TIC310231275, PC rho=0.585         
+H620061 019 12:16 300 300  15:59:09.1 +32:23:45.5     42.28   -102.94   9.71  # TIC310231275, PC rho=0.585
+H620061 020 12:18 300 300  15:59:09.1 +32:23:45.5     42.28   -102.94   9.71  # TIC310231275, PC rho=0.585
+H620061 021 12:19 300 300  15:59:09.1 +32:23:45.5     42.28   -102.94   9.71  # TIC310231275, PC rho=0.585
+H620061 022 12:22 300 300  15:59:09.1 +32:23:45.5     42.28   -102.94   9.71  # TIC310231275, PC rho=0.585
+HR 6107 023 12:26  20  20  16:22:21.4 +33:47:57.0                       5.20
+---------------------------------------------------------------------------------------------
+H620036 024 12:29 300 300  16:23:37.9 +54:41:24.3    -38.23     73.20   9.76  # TIC207468071, PC rho=0.819         
+H620036 025 12:30 300 300  16:23:37.9 +54:41:24.3    -38.23     73.20   9.76  # TIC207468071, PC rho=0.819 
+H620036 026 12:32 300 300  16:23:37.9 +54:41:24.3    -38.23     73.20   9.76  # TIC207468071, PC rho=0.819 
+Clouds are moving in again. Really need to bump up the gain for the point source
+HR 6199 027 12:34 300 300  16:38: 0.4 +56:00:56.0                       5.29
+HR 6199 028 12:36 300 300  16:38: 0.4 +56:00:56.0                       5.29
+---------------------------------------------------------------------------------------------
+SIDE observation. Ba eclipse. Start 10:54:52 Mid:          End: 13:13:05 Observation 2 of 2
+Refocus to 210um
+HR 5800 029 12:44 300 300  15:35:15.0 +39:00:36.0      0.00      0.00   5.11
+Clouds are thick, and it is getting close to sunrise. Can't really see the star, but try anyway
+H300118 030 12:50 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 031 12:51 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 032 12:53 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 033 12:54 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 034 12:56 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+H300118 035 12:57 300 300  15:08:09.1 +39:58:12.9    -82.83     60.71  10.52  #TIC ID = 20212631
+---------------------------------------------------------------------------------------------
+End of night

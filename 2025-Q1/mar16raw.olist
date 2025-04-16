@@ -1,0 +1,44 @@
+DSSI OBSERVING at the ARC Telescope, 16 MAR 2025 UT
+On-Site Observers: Jimmy Davidson, Elliott Horch, and SCSU students Ana Baculima,
+                   Riley Barrett, Joshua Esposito, and Killian Levy
+Remote Observers:
+OTs: Jack Dembicky
+
+
+Same set-up as last run:
+The 60-mm focal length, 25-mm diameter, lens is now the collimator in DSSI.
+We have a new DSSI control computer that was used during previous nights with DIFFIT.
+DSSI control computer mounted to underside of instrumnet has IP: 10.75.0.93
+The DSSI computer password is $peckle
+Password for the APO internal network APO-unifi is Astronomy@APO
+With RealVNC server started on the DSSI computer, you can log in with
+VNC viewer using horche2@southernct.edu and the password lourdes7630
+the machine is called DSSI-SilverStone-2, and the password for it is $peckle
+Using the desktop PC with username Horch Lab 2, password Astronomy (use this
+to VNC into DSSI-Silverstone-2)
+
+
+
+Camera A = X-13111 (692 nm)
+Camera B = X-13243 (880 nm)
+Camera set-up (on both):
+Baseline Clamp: on.
+Vertical shift speed: 4.33.
+Vertical Clock Voltage Amplitude: Normal
+Readout Rate: 10MHz at 16-bit
+Pre-Amp gain: 2
+Output Amplitfier: Electron Multiplying.
+
+TUI Program UV01, password fiddleDeDee
+
+DSSI is still mounted on the NA2 port from the previous night
+
+UT = 16 MAR 2025
+- pixel scale = 0.0225 arcsec/pixel from earlier observing runs 
+Start with image 001
+---------------------------------------------------------------------------------------------
+NAME    IMG   UT    GAINS      RA         DEC         PM_RA     PM_DEC   MAG  NOTES
+---------------------------------------------------------------------------------------------
+We did not open due snow on dome and high wind.
+---------------------------------------------------------------------------------------------
+End of night
